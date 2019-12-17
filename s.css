@@ -1,0 +1,156 @@
+html,
+html {
+    height: 100%;
+  }
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: rgb(255, 255, 255)  ;
+    font-family: Tahoma;
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    color:rgb(245, 108, 73);
+}
+h2{
+    color: rgb(116, 198, 223);
+}
+h3{
+    color: rgb(116, 198, 223);
+}
+h4{
+    color: rgb(116, 198, 223);
+}
+h5{
+    color: rgb(116, 198, 223);
+}
+#header nav li a:hover{
+    background: rgb(176, 189, 192);
+    color: rgb(176, 191, 194);
+}
+li{
+    color:rgb(165, 183, 189);
+}
+li a {
+   color: rgb(127, 194, 214);
+}
+p {
+ color: rgb(91, 193, 201);
+ margin: 1px 480px 30px 480px;
+}
+nav{
+    color: rgb(186, 234, 248);
+}
+.row{
+    margin-left: auto;
+    margin-right: auto;
+    width: 10px ;
+}
+/*
+    Здесь идет оформление шапки
+ */
+#header{
+    border-bottom: 5px solid rgb(120, 205, 216);
+}
+#header .row{
+    align-items: stretch;
+    display: flex;
+}
+#header .logotype{
+    margin-right: 10px;
+    overflow: hidden;
+    width: 1500px;
+    color: rgb(116, 198, 223);
+}
+#header .logotype img{
+    width: auto;
+    height: auto;
+    max-width: 10%;
+    max-height: 10%;
+    vertical-align: bottom;
+}
+#header .brand{
+    align-items: center;
+    display: flex;
+    font-size: 100px;
+    font-weight: bold;
+    margin-right: 30px;
+    text-transform: uppercase;
+}
+#header ul{
+    align-items: stretch;
+    display: flex;
+    list-style: none;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+#header nav li a{
+    box-sizing: border-box;
+    align-items: center;
+    color: rgb(69, 185, 201);
+    display: flex;
+    height: 100px;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+#header nav li a:hover{
+    background: rgb(179, 237, 252);
+    color: #FFF;
+}
+#header .social{
+    margin-left: auto;
+    margin-right: 20px;
+}
+#header .social li{
+    align-items: center;
+    display: flex;
+    margin-left: 15px;
+}
+#header .social li a{
+    color: rgb(186, 219, 235);
+    font-size: 20px;
+}
+#header .link{
+    margin-left: auto;
+}
+#header .link li{
+    align-items: center;
+    display: flex;
+    margin-left: 10px;
+}
+
+}
+#header .link a{
+    color: rgb(168, 228, 243);
+    text-decoration: none;
+}
+#header .link a:hover{
+    color: rgba(182, 244, 248, 0.877);
+}
+footer{
+    position: relative;
+    display: flex;
+    display: block;
+    margin: 0 auto 13px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    margin-left:640px;
+    justify-content:space-between;
+    flex-direction: column;
+    text-decoration: none;
+}
+.footer a{
+    color: rgb(116, 198, 223);
+    text-decoration: none;
+}
+.footer a:hover{
+    color: aquamarine;
+}
